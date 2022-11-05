@@ -28,6 +28,8 @@
   left: 64px;
   position: absolute;
   background-image: url(../images/logo_place_header.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
   align-self: flex-start;
 }
 
@@ -316,7 +318,9 @@
 }
 
 .logo_place_footer {
-  background-image: url(/images/logo_place_footer.svg);
+  background-image: url(../images/logo_place_footer.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer__author {
@@ -361,7 +365,7 @@
 
 .footer__youtube_icon::before {
   margin-right: 10px;
-  content: url(/images/youtube-icon.svg);
+  content: url(../images/youtube-icon.svg);
   background-repeat: no-repeat;
   height: 16px;
   width: 16px;  
@@ -369,7 +373,7 @@
 
 .footer__vk_icon::before {
   margin-right: 10px;
-  content: url(/images/vk_color_white.svg);
+  content: url(../images/vk_color_white.svg);
   background-repeat: no-repeat;
   height: 16px;
   width: 16px;  
@@ -377,7 +381,7 @@
 
 .footer__tiktok_icon::before {
   margin-right: 10px;
-  content: url(/images/tiktok-icon.svg);
+  content: url(../images/tiktok-icon.svg);
   background-repeat: no-repeat;
   height: 16px;
   width: 16px;  
