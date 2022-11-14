@@ -1,6 +1,6 @@
-@import url(../blocks/rotation/rotation.css);
-
 @import url(../vendor/normalize.css);
+
+@import url(../blocks/rotation/rotation.css);
 
 @import url(../blocks/page/page.css);
 
@@ -112,10 +112,6 @@
 
 @import url(../blocks/resources/resources.css);
 
-@import url(../blocks/resources/section-title/section-title.css);
-
-@import url(../blocks/resources/section-subtitle/section-subtitle.css);
-
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 
 @import url(../blocks/resources/__link/resources__link.css);
@@ -145,5 +141,3 @@
 @import url(../blocks/footer/__column/_content/footer__column_content_social.css);
 
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
-
-@import url(../blocks/blockquote/blockquote.css);
